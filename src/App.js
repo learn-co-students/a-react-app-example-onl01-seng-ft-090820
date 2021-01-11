@@ -4,6 +4,7 @@ import ExampleComponent from './ExampleComponent'
 import TestComponent from './TestComponent'
 
 // Add your code own within the return statement
+// document.querySelector('header.App-header').innerText('NOW')
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of JSX.
         </p>
         <ExampleComponent />
+        <TestComponent />
 
       </div>
     );
